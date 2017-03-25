@@ -1,0 +1,36 @@
+README File for etu 
+
+ABOUT
+-----
+ETU or the Enlightenment Thumbnailing Utility utilizes imliob2.
+
+See INSTALL file to build and install.
+
+USAGE
+-----
+
+Etu can be used one of four ways:
+
+	- rescale a single image
+	- check to see if a single image needs to be re-scaled (disk cache)
+	- rescale an entire directory 
+	- check files in a directory to see if they need to be re-scaled (disk
+		cache)
+
+EXAMPLES
+--------
+
+Scale a single png image to 80x80 pixels with 60% quality, rename it 
+to outfile.png
+
+	etu -i filename.png -w 80 -h 80 -q 60  -o outfile.png
+
+Simply repeat the command to see if outfile.png needs updated.
+
+Scale a directory of images called my-images/ and send them to thumb-images/,
+change them to 100x100 px with as little loss as possible:
+
+	etu --src /path/to/my-images/ -d thumb-images -w 100 -h 100 -q 100 
+
+Rerun to refresh.
+

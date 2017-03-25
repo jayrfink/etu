@@ -1,0 +1,13 @@
+Building and installing etu is simple as long as the following 
+requirements are met:
+
+- imlib2 is built, installed and in pkg-config
+
+Then:
+	cd ~etu/
+	sh autogen.sh
+	./configure
+	make 
+	(sudo) make install
+
+

@@ -1,0 +1,32 @@
+version 0.1.8
+	Added the file information capability
+	Migrated to imlib2 only
+version 0.1.7
+	Got rid of the thumbs nomencalture since we can scale up/down
+	Minor formatting fixes
+version 0.1.6
+	Fixed if orig-file is deleted the thumb stays bug
+	Added daemonized mode
+	Wrote some demonstration scripts and a perl lib (untested)
+	Minor formatting fixes
+version 0.1.5
+	Added long options
+	Fixed usage
+version 0.1.4
+	Added automatic image decoding
+	Support for non-jpeg formats using imlib2
+	Fixed naming conventions to be non-jpg specific
+	Fixed dir readdir bug
+version 0.1.3
+	Normalized to e17 src layout and style.
+	Got etu autofoo setup correctly.
+version 0.1.2
+	Fixed input segfaults. If nothing was specified it crashes, for
+	single file output it crashed if no -o option is specified.
+version 0.1.1
+    Added ldconfing help message to INSTALL
+version 0.1.0
+	Added autofoo capability
+	Added regular dist files
+version 0.0.9
+	Beta

@@ -1,0 +1,22 @@
+/** 
+@file
+@brief etu
+ 
+These routines are used for etu
+*/
+
+/**
+
+@mainpage etu Documentation
+@image html  etu.png
+@version .13
+@author  pantos <jay.fink@gmail.com>
+@date 2005
+
+@section intro What is Etu?
+
+Command line thumbnail utility.
+
+@todo Complete documentation
+
+*/

@@ -1,0 +1,8 @@
+# No comments on the same line as a config
+# item
+SRCDIR=/var/www/images-prescale
+DSTDIR=/var/www/images-rescale
+QUALITY=90
+WIDTH=100
+HEIGHT=80
+INTERVAL=300
